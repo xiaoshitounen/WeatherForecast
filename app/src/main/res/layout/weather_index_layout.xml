@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+
+        <include
+            layout="@layout/circle_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/index_tipt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="穿衣指数："
+            android:textColor="#ff9933"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            />
+
+        <TextView
+            android:id="@+id/index_zs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="炎热"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/index_des"
+        android:layout_below="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内容"
+        android:textColor="#dddddd"
+        android:layout_marginTop="5dp"
+        />
+
+</RelativeLayout>

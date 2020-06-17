@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">天气预报</string>
+    <string name="ItemCity">CITY</string>
+    <string name="ItemWeather">WEATHER</string>
+    <string name="ItemTemperature">temperature</string>
+    <string name="ItemNowTemperature">now_temperature</string>
+    <string name="CityName">CITY_NAME</string>
+    <string name="location">LOCATION</string>
+</resources>

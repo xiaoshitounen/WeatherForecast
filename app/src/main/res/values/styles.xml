@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--Android 6.0开始，谷歌官方提供了支持，
+            在style属性中配置android:windowLightStatusBar即可，
+            设置为true时，当statusbar的背景颜色为淡色时，
+            statusbar的文字颜色会变成灰色，
+            为false时同理。
+        -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <color name="status_bar_color">#000000</color>
+</resources>
